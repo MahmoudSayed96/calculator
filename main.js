@@ -40,7 +40,7 @@ function appendNum(number) {
     opratorClicked = false;
   }
   current = `${current}${number}`;
-  display += current;
+  display = current;
   output();
 }
 
@@ -108,3 +108,4 @@ function output() {
   // Display math oprations
   document.getElementById("display").textContent = display;
 }
+
